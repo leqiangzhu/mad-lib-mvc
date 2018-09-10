@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <environment names="Development">
+   <link rel="stylesheet" href="../../wwwroot/css/styles.css" />
+      </environment>  <title>Mad Libs</title>
+</head>
+<body>
+    @{
+    Layout = "_Layout";
+    }
+  <div class="container">
+    <h1>Fill in the blanks to write your story!</h1>
+    <div>
+      <form id="formOne" action='/response'>
+        <div class="form-group">
+          <label for="person1">Your dream date</label>
+          <input id="person1" name='person1' class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="person2">A peron that lives close to you</label>
+          <input id="person2" name='person2' class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="animal">An animal</label>
+          <input id="animal" name='animal' class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="exclamation">An exclamation</label>
+          <input id="exclamation" name='exclamation' class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="verb">A past tense verb</label>
+          <input id="verb" name='verb' class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="food">A food</label>
+          <input id="food" name='food' class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Show me the story!</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<environment names="Development">
+  <link rel="stylesheet" href="~/css/styles.css"/>
+</environment>
+  <title>Mad Libs</title>
+</head>
+<body>
+  @{
+  Layout = "_Layout";
+  }
+  <div class="container">
+    <h1>Here is your Story!</h1>
+    <div id="story">
+      <h1>A fantastical adventure</h1>
+      <p>
+      Tonight I'm going on a date with @Model.GetPerson1() from my math class. He has asked me out over 5 times and I always pushed him away. This time I thought I'd go for it, I mean why not, who is it hurting? @Model.GetPerson1() is one of those smart kind of guys who gets straight A 's in every subject, he's kind of a teacher's pet. It was Friday night when I heard a knock at the door.</br></br>
+
+      It was @Model.GetPerson1() holding a bouquet of flowers, he bowed and then handed one to me and said " You look delightful my dear, shall we? I almost @Model.GetVerb() from laughter but held it in the best I could. I took his arm and he walked me to his limo. We drove to a restaurant that overlooked the ocean. He ordered @Model.GetFood(),  I just wanted a salad with a glass of water, I guess he thought I was boring but his outfit had me lose my appetite, green plaid pants with a button-down shirt tucked in and over-sized sunglasses on! After dinner he drove me home, we talked about why cars are so cool, which was weird, and then he walked me to my @Model.GetAnimal(). He kissed me on the forehead, out of all places! Then scratched his head and said I had a swell time, lets date again some time! The neighbor, @Model.GetPerson2() was watching us from his house. I nodded my head No, then quickly went inside. I felt embarrassed seeing him again in school but we usually just say "@Model.GetExclamation()"! when we bump into each other in the school hallway.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

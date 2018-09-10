@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/mad-lib-forms-master/bin/Debug/netcoreapp1.1/mad-lib.deps.json
+/Users/Guest/Desktop/mad-lib-forms-master/bin/Debug/netcoreapp1.1/mad-lib.runtimeconfig.json
+/Users/Guest/Desktop/mad-lib-forms-master/bin/Debug/netcoreapp1.1/mad-lib.runtimeconfig.dev.json
+/Users/Guest/Desktop/mad-lib-forms-master/bin/Debug/netcoreapp1.1/mad-lib.dll
+/Users/Guest/Desktop/mad-lib-forms-master/bin/Debug/netcoreapp1.1/mad-lib.pdb
+/Users/Guest/Desktop/mad-lib-forms-master/obj/Debug/netcoreapp1.1/mad-lib.AssemblyInfo.cs
+/Users/Guest/Desktop/mad-lib-forms-master/obj/Debug/netcoreapp1.1/mad-lib.dll
+/Users/Guest/Desktop/mad-lib-forms-master/obj/Debug/netcoreapp1.1/mad-lib.pdb
